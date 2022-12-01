@@ -2,7 +2,7 @@
     "name": "Stock Ticker",
     "version": "1.0.0",
     "description": "CS20 HW12",
-    "main": "index.html",
+    "main": "get_equities.js",
     "scripts": {
         "start": "node get_equities.js"
     },
@@ -13,5 +13,5 @@
     "dependencies": {
         "mongodb": "^4.12.1"
     },
-    "homepage": "index.html"
+    "homepage": "https://hw12-stockticker.herokuapp.com/index.html"
 }
