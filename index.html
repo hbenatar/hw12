@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Stock Ticker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: #a6bfed;
+                text-align: center;
+                font-family: 'Trebuchet MS';
+            }
+            h2 {
+                color: #2f6fe7;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Enter a company name OR a stock ticker:</h2>
+        <form name="form" action="http://localhost:3000/">
+            <input type="text"  name="input"/> <br/>
+            <input type="radio" name="name_or_ticker" value="company_name" checked="checked"/> Company Name
+            <input type="radio" name="name_or_ticker" value="stock_ticker"/>  Stock Ticker <br/><br/>
+            <button type="submit" name="submit">Get Info</button>
+        </form>  
+    </body>
+</html>

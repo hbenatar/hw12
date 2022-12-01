@@ -1,0 +1,17 @@
+{
+    "name": "Stock Ticker",
+    "version": "1.0.0",
+    "description": "CS20 HW12",
+    "main": "get_equities.js",
+    "scripts": {
+        "start": "node get_equities.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "mongodb": "^4.12.1"
+    },
+    "homepage": "index.html"
+}
