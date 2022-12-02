@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "CS20 HW12",
     "main": "get_equities.js",
+    "homepage": "form.html",
     "scripts": {
         "start": "node get_equities.js"
     },
