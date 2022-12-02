@@ -13,5 +13,4 @@
     "dependencies": {
         "mongodb": "^4.12.1"
     }
-    //"homepage": "https://hw12-stockticker.herokuapp.com/index.html"
 }
